@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -48,4 +48,67 @@ body{
     margin-left: 100px;
     margin-right: 250px; 
 }
+
+old code 
+ */
+/* new code  by romil */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 3px 3px rgb(162, 163, 165);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#text {
+    margin-top: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: blue;
+    color: whitesmoke;
+    box-shadow: 3px 3px rgb(211, 211, 227);
+}
+
+.imgbox {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
 
